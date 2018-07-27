@@ -35,17 +35,34 @@ body {
   }
 }
 
+body {
+  background-color: #503E60;
+  
+}
+
+
 body p {
   font-family: 'Montserrat', sans-serif;
+  color: white;
 
+
+}
+
+body h2 {
+  font-size: 26px;
+}
+
+body h1, body h2{
+  color: #9B4A90;
 }
 
 /* ---- header ---- */
 .nav-bar {
   display: flex;
   justify-content: space-between;
-  margin: 0 25px;
+  padding: 0 25px;
   align-items: center;
+  background-color: white;
 }
 
 .nav-bar img {
@@ -59,11 +76,12 @@ body p {
 .main {
   height: 70vh;
   display: flex;
-  background-image: url(https://upload.wikimedia.org/wikipedia/commons/4/45/Alaska_wild_berries.jpg);
+  background-image: url(assets/fuel_2.png);
   background-position: center;
   background-size: contain;
-  justify-content: center;
+  background-repeat: no-repeat;
   align-items: center;
+
 }
 
 .main h1 {
@@ -82,9 +100,28 @@ body p {
 
 /* ---- benefit section ---- */
 
+.title {
+  padding: 30px 0px;
+  text-align: right;
+  padding-right: 40px;
+
+}
+.title h1{
+  margin: 0px;
+}
+
+.title h1:nth-child(2){
+  color:white;
+}
+
+
 .benefits h2 {
   text-align: center;
   margin: 30px 0px;
+  font-size: 18px;
+  font-family: 'Anton', sans-serif;
+  color: white;
+
 }
 
 .benefits img {
@@ -114,9 +151,11 @@ body p {
 }
 
 /* ---- info section ---- */
+
 .info h2 {
   text-align: center;
   margin: 30px 0px;
+  color: white;
 }
 
 .info-image img {
@@ -124,9 +163,20 @@ body p {
 }
 
 /* ---- trust indicators ---- */
+.trust-indicators {
+  background-color: white;
+  width: 100%;
+  padding: 20px;
+}
+
 .trust-indicators h2 {
   text-align: center;
   margin: 30px 0px;
+}
+
+.trust-indicators img {
+  width: 100px;
+  margin: 30px;
 }
 
 /* ---- footer ---- */
@@ -134,3 +184,9 @@ body p {
 /* ---- components ---- */
 
 /* ---- css shame ---- */
+
+
+
+.align-right{
+  text-align: right;
+}
