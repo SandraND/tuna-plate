@@ -1,4 +1,4 @@
-# tuna-plate 2018
+# açai-berry
 
 > Internal Ironhack Barcelona Hackathon (UX/UI + WebDev)
 
