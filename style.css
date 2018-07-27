@@ -43,12 +43,13 @@ body {
   align-items: center;
 }
 
+.nav-bar img {
+  width: 40px;
+}
 
-/* ---- footer ---- */
 
-/* ---- components ---- */
 
-/* ---- css shame ---- */
+/* ---- main section ---- */
 
 .main {
   height: 70vh;
@@ -58,22 +59,52 @@ body {
   text-align: center;
 }
 
+.main h1 {
+  margin-top: 0px;
+}
+
 .btn-cta {
   position: fixed;
-
+  
   left: 40%;
 }
 
-.articles{
-  border: 1px solid red;
+/* ---- benefit section ---- */
 
-}
-.map{
-border: 1px solid blue;
-
+.benefits h2 {
+  text-align: center;
+  margin: 30px 0px;
 }
 
-.cool-people{
-  border: 1px solid green;
+.benefits img {
+  width: 150px;
 
 }
+.card {
+  display: flex;
+  margin: 30px 0px;
+}
+
+.card-right {
+  flex-direction: row-reverse;
+}
+.card-right p {
+  margin-right: 18px;
+}
+
+.card p {
+  margin-top: 5px;
+  margin-left: 18px;
+}
+
+.card h2 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+
+/* ---- footer ---- */
+
+/* ---- components ---- */
+
+/* ---- css shame ---- */
