@@ -43,3 +43,20 @@ body {
 
 /* ---- css shame ---- */
 
+.main{
+  border: 1px solid yellow;
+}
+
+.articles{
+  border: 1px solid red;
+
+}
+.map{
+border: 1px solid blue;
+
+}
+
+.cool-people{
+  border: 1px solid green;
+
+}
